@@ -1,6 +1,6 @@
 Deskripsi project :
 -
-Membuat kerangka API Automation dengan Gorest sebagai object testing. Project ini menggunakan framework testing JUnit dengan menggunakan library RestAssured untuk melakukan pengujian API berbasis HTTP dan menggunakan konsep POM (Page Model Object).
+Membuat kerangka API Automation dengan Gorest sebagai object testing. Project ini menggunakan framework testing JUnit dengan menggunakan library RestAssured untuk melakukan pengujian API berbasis HTTP dan menggunakan konsep POM (Page Model Object). Skenario testing mencakup GET, POST, PATCH, dan DELETE.
 
 Cara run project :
 -
