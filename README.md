@@ -23,15 +23,16 @@ Report dari cucumber
 
 Tes negatif: uji API untuk respons yang salah dengan input yang salah, seperti mengirim tipe data yang salah atau kolom wajib diisi tidak ada.
 
-Negatif test > tidak menginputkan kolom nama
-![Screenshot 2024-11-21 133645](https://github.com/user-attachments/assets/1b43a99e-ba1e-4d83-9775-cf7798faea2e)
-![Screenshot 2024-11-21 133603](https://github.com/user-attachments/assets/3ae533b9-0675-4fb1-a36d-627c32948b4a)
-![Screenshot 2024-11-21 133617](https://github.com/user-attachments/assets/50c86116-315c-49fd-a75e-5e19b2d4d28c)
+Negatif test > menguji penulisan string url yang seharusnya "GET_LIST_USERS" menjadi "GET_LIST_USER"
+![Screenshot 2024-11-22 090621](https://github.com/user-attachments/assets/d3e56939-cb89-4da3-b19b-b6ec3c945128)
+![Screenshot 2024-11-22 090701](https://github.com/user-attachments/assets/19ab0afc-bee3-47b8-a261-92b4939547d7)
+
   
-Negatif test > input status menjadi aktif (seharusnya pilih antara active/inactive)
- ![Screenshot 2024-11-21 133907](https://github.com/user-attachments/assets/8b763d8b-aefd-4f5b-855f-528d3cb1bf47)
-![Screenshot 2024-11-21 133921](https://github.com/user-attachments/assets/e2587808-9cff-4d3d-823f-81112e1a16cc)
- ![Screenshot 2024-11-21 133930](https://github.com/user-attachments/assets/4b48fdc7-6795-4599-9f61-415bd1256c14)
+Negatif test > menguji status code pada skenario update yang seharusnya 201 menjadi 204
+![Screenshot 2024-11-22 090223](https://github.com/user-attachments/assets/78867a22-1eea-4117-9d33-727f127c28c8)
+![Screenshot 2024-11-22 090252](https://github.com/user-attachments/assets/441dc4b6-e0f9-443f-9f48-dc82b8cd4830)
+
+
 
 
  
