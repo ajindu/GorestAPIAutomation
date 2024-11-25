@@ -24,6 +24,7 @@ Report dari cucumber
 Tes negatif: uji API untuk respons yang salah dengan input yang salah, seperti mengirim tipe data yang salah atau kolom wajib diisi tidak ada.
   
 Negatif test > menguji input dengan user dengan gender "males" yang seharusnya adalah male/female
+
 Models.java
 ![Screenshot 2024-11-25 104221](https://github.com/user-attachments/assets/7f3d57cc-c097-49f5-ad1f-5019fe19537e)
 
