@@ -36,6 +36,20 @@ public class Models {
         setupHeaders();
         return request.body(payload.toString()).when().post(endpoint);
     }
+    public static Response postCreateUserAbnormal(String endpoint){
+        String name = "sang aji";
+        String gender = "males";
+        String email = generateRandomEmail();
+        String status = "active";
+        JSONObject payload = new JSONObject();
+        payload.put("name", name);
+        payload.put("gender", gender);
+        payload.put("email", email);
+        payload.put("status", status);
+
+        setupHeaders();
+        return request.body(payload.toString()).when().post(endpoint);
+    }
 
     public static Response deleteUser(String endpoint, String user_id){
         setupHeaders();
