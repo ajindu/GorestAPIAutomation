@@ -26,7 +26,7 @@ public class Models {
         String name = "sang aji";
         String gender = "male";
         String email = generateRandomEmail();
-        String status = "aktif";
+        String status = "active";
         JSONObject payload = new JSONObject();
         payload.put("name", name);
         payload.put("gender", gender);
